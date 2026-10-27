@@ -1,0 +1,116 @@
+[
+ {
+  "model": "qwen2.5-vl-3b",
+  "device": "gpu",
+  "load_s": 14.0,
+  "tok_s": 40.1,
+  "probes": [
+   {
+    "img": "t1_terminal.png",
+    "hits": 4,
+    "need": 5,
+    "answer_head": "hanni@yunjin:~$ systemctl --user status hanni-model-tunnel  Loaded: loaded (/home/hanni/.config/systemd/user/hanni-model-tunnel.service; active (running) since Thu 2026-10-15 08:44"
+   },
+   {
+    "img": "t2_chart.png",
+    "hits": 1,
+    "need": 1,
+    "answer_head": "The tallest bar in the graph is labeled \"mtp r2\" and has a value of 29.4 tok/s. The green bars in the graph are labeled \"mtp r1\" and \"mtp r2\"."
+   },
+   {
+    "img": "t3_spatial.png",
+    "hits": 1,
+    "need": 1,
+    "answer_head": "The image contains the following elements:  1. **Red Square**: Located on the left side of the image. 2. **Blue Circle**: Positioned on the right side of the image. 3. **Label Text"
+   },
+   {
+    "img": "t4_tiny.png",
+    "hits": 1,
+    "need": 1,
+    "answer_head": "The quick brown fox jumps over the lazy dog 0123456789  PCle 4.0 x16 slot 2 operates at Gen3 x4 when M2_1 is populated  B550M-PRO-VDH.WIFI BIOS 7C95v2A supports Ryzen 7 5700X  Seri"
+   },
+   {
+    "img": "t5_table.png",
+    "hits": 1,
+    "need": 1,
+    "answer_head": "The tok/s value in the row for Qwen3-VL-4B is 33.7."
+   }
+  ]
+ },
+ {
+  "model": "qwen2.5-vl-7b",
+  "device": "gpu",
+  "load_s": 24.7,
+  "tok_s": 27.0,
+  "probes": [
+   {
+    "img": "t1_terminal.png",
+    "hits": 4,
+    "need": 5,
+    "answer_head": "hanni@yunjin:~$ systemctl --user status hannimodel-tunnel    Loaded: loaded (/home/hanni/.config/systemd/user/hanni-model-tunnel.service;)    Active: active (running) since Thu 202"
+   },
+   {
+    "img": "t2_chart.png",
+    "hits": 1,
+    "need": 1,
+    "answer_head": "The tallest bar in the graph has a tok/s value of 29.4. The green bars in the graph are labeled \"mtp r1\" and \"mtp r2\"."
+   },
+   {
+    "img": "t3_spatial.png",
+    "hits": 1,
+    "need": 1,
+    "answer_head": "The image contains several geometric shapes and text elements:  1. **Red Square**: The red square is located on the left side of the image. 2. **Blue Circle**: The blue circle is p"
+   },
+   {
+    "img": "t4_tiny.png",
+    "hits": 1,
+    "need": 1,
+    "answer_head": "The serial number in the image is XJ7-99-KQ2-118."
+   },
+   {
+    "img": "t5_table.png",
+    "hits": 1,
+    "need": 1,
+    "answer_head": "The tok/s value for the row corresponding to Qwen3-VL-4B is 33.7."
+   }
+  ]
+ },
+ {
+  "model": "qwen3-vl-4b",
+  "device": "gpu",
+  "load_s": 12.1,
+  "tok_s": 42.7,
+  "probes": [
+   {
+    "img": "t1_terminal.png",
+    "hits": 4,
+    "need": 5,
+    "answer_head": "hanni@yunjin:~$ systemctl --user status hanni-model-tunnel Loaded: loaded (/home/hanni/.config/systemd/user/hanni-model-tunnel.service) Active: active (running) since Thu 2026-10-1"
+   },
+   {
+    "img": "t2_chart.png",
+    "hits": 1,
+    "need": 1,
+    "answer_head": "Based on the provided bar chart:  - The **tallest bar** is the green bar on the far right, labeled **\"mtp r2\"**. - The value written on top of this bar is **29.4 tok/s**.  Therefor"
+   },
+   {
+    "img": "t3_spatial.png",
+    "hits": 1,
+    "need": 1,
+    "answer_head": "Based on the image provided:  - **The red square** is located on the left side of the image, positioned near the top-left corner. - **The blue circle** is located on the right side"
+   },
+   {
+    "img": "t4_tiny.png",
+    "hits": 1,
+    "need": 1,
+    "answer_head": "XJ7-99-KQ2-118"
+   },
+   {
+    "img": "t5_table.png",
+    "hits": 1,
+    "need": 1,
+    "answer_head": "Based on the provided table, the value in the `tok/s` column for the row corresponding to **Qwen3-VL-4B** is **33.7**.  This value represents the token throughput, measured in toke"
+   }
+  ]
+ }
+]

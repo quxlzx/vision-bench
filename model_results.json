@@ -1,0 +1,36 @@
+[
+ {
+  "model": "Qwen3.5-9B-Q4_K_M",
+  "error": "TimeoutError: timed out"
+ },
+ {
+  "model": "Qwen3.5-4B-Q4_K_M",
+  "load_s": 6.0,
+  "cold_latency_s": 18.31,
+  "median_latency_s": 7.37,
+  "p95_latency_s": 17.9,
+  "peak_rss_mb": 5589,
+  "offload": "all layers CPU (no GPU access)",
+  "cases": 100,
+  "tool_call_accuracy": 77.0,
+  "bad_argument_json": 0,
+  "parse_failures": 0,
+  "fp_audit_accuracy": 100.0,
+  "fp_cases": 20
+ },
+ {
+  "model": "Qwen3.5-2B-Q4_K_M",
+  "load_s": 3.0,
+  "cold_latency_s": 8.96,
+  "median_latency_s": 3.01,
+  "p95_latency_s": 8.39,
+  "peak_rss_mb": 4844,
+  "offload": "all layers CPU (no GPU access)",
+  "cases": 100,
+  "tool_call_accuracy": 70.0,
+  "bad_argument_json": 0,
+  "parse_failures": 0,
+  "fp_audit_accuracy": 100.0,
+  "fp_cases": 20
+ }
+]
